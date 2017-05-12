@@ -27,4 +27,4 @@ while True:
     tweet = str(markov_generator.tweet_quote())
     api.update_status(status=tweet)
     print(tweet)
-    time.sleep(60)
+    time.sleep(3600)
