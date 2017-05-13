@@ -11,8 +11,6 @@ import time
 import markov_generator
 import os
 
-print("test phrase")
-
 # Getting API keys from the Heroku environ
 consumer_key = os.environ['consumer_key']
 consumer_secret = os.environ['consumer_secret']
