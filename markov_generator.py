@@ -9,8 +9,6 @@ Run form_dict("text file name") to create a dictionary
 Run markov_gen to create chains, give it a number for legnth of chain,
 can specify a text file to generate from or give a pre-made table to avoid
 re-creating the dictionary each time.
-
-IDEA Remove punctuation, add in as an optional argument?
 '''
 
 # importing random for choice of words from the key-value list
@@ -106,7 +104,7 @@ def tweet_quote():
         addition = " From, an anonymous Eldar"
     else:
         addition = " From, an anonymous Guardsman"
-    return('"' + markov_gen(race,random.randint(10,15)) + '"' + addition)
+    return('"' + markov_gen(race,random.randint(10,15)) + '"' + addition + "#warhammer40k")
 
 # Debugging --- uncomment as nessacery
 
