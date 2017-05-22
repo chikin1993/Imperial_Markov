@@ -104,7 +104,7 @@ def tweet_quote():
         addition = " From, an anonymous Eldar"
     else:
         addition = " From, an anonymous Guardsman"
-    return('"' + markov_gen(race,random.randint(10,15)) + '"' + addition + "#warhammer40k")
+    return('"' + markov_gen(race,random.randint(10,15)) + '"' + addition + " #warhammer40k")
 
 # Debugging --- uncomment as nessacery
 
